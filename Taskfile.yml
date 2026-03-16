@@ -1,0 +1,17 @@
+version: '3'
+
+tasks:
+  build:
+    desc: Build zon-version
+    cmds:
+      - zig build
+
+  test:
+    desc: Run tests
+    cmds:
+      - zig build test
+
+  run:
+    desc: Run zon-version
+    cmds:
+      - zig build run -- {{.CLI_ARGS}}
