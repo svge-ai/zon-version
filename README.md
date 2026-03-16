@@ -39,4 +39,4 @@ Reads the `.zon` file as text, finds the `.version = "X.Y.Z"` field by pattern m
 
 ## License
 
-Apache-2.0
+MIT
